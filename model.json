@@ -1,0 +1,61 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "roman",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "HelpIntent help"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ConvertToRomanIntent",
+                    "slots": [
+                        {
+                            "name": "arabic",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "convert {arabic} to roman",
+                        "convert to roman {arabic}"
+                    ]
+                },
+                {
+                    "name": "ConvertToArabicIntent",
+                    "slots": [
+                        {
+                            "name": "roman",
+                            "type": "ROMAN"
+                        }
+                    ],
+                    "samples": [
+                        "convert {roman} to arabic",
+                        "convert to arabic {roman}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "ROMAN",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "V"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

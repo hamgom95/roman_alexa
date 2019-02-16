@@ -1,0 +1,7 @@
+welcome: Welcome to roman. You can convert roman to arabic numerals and vice versa.
+
+help: Say convert to roman or convert to arabic.
+
+as_roman: "{{ arabic }} is the roman numeral {{ roman }}"
+
+as_arabic: "The roman numeral {{ roman }} is {{ arabic }}"

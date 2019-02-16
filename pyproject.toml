@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "roman_alexa"
+version = "0.1.0"
+description = "roman numeral converter alexa app"
+authors = ["Kevin Thomas <hamgom95@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+flask-ask = "*"
+
+[tool.poetry.dev-dependencies]
