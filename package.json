@@ -1,0 +1,15 @@
+{
+  "name": "roman_alexa",
+  "version": "1.0.0",
+  "description": "Roman numeral converter skill for alexa.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless-openwhisk": "^0.18.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
